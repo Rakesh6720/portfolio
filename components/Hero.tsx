@@ -35,7 +35,11 @@ const Hero = () => {
             Hi, I&apos;m Rakesh, a fullstack developer based in Milwaukee
           </p>
           <a href="#about">
-            <MagicButton title="Show my work" icon={<FaLocationArrow />} />
+            <MagicButton
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
           </a>
         </div>
       </div>
